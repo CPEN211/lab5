@@ -1,0 +1,38 @@
+module datapath (datapath_in, datapath_out);
+
+input [15:0] datapath_in;
+output [15:0] datapath_out;
+wire [15:0] data_out,outA,outB,shiftout,ain,bin,cout,datapath_out,datapath_in;
+wire status,vsel,asel,bsel,loada,loadb,loadc,loads,clk;
+
+register A(.load(loada), .clk(clk), .in(data_out), .out(outA));
+register B(.load(loadb), .clk(clk), .in(data_out), .out(outB));
+register C(.load(loadc), .clk(clk), .in(cout), .out(datapath_out));
+
+mux2_1 v(.in1(datapath_in), .in0(datapath_out), .sel(vsel), .out(data_in));
+mux2_1 a(.in1({16{1'b0}}), .in0(outA), .sel(asel), .out(ain));
+mux2_1 b(.in1({11'b0,datapath_in[4:0]}), .in0(shiftout), .sel(bsel), .out(bin));
+
+reg_file regfile(.writenum(writenum), .write(write), .data_in(data_in), .clk(clk), .readnum(readnum), .data_out(data_out));
+
+ALU alu(.ain(ain), .bin(bin), .ALUop(ALUop), .cout(cout), .status(status));
+
+register status(.load(loads), .clk(clk), .in(status), .out(dumb));
+
+shift shifter(.shiftin(outB), .shift(shift), .shiftout(shiftout));
+
+
+endmodule 
+
+
+
+
+module mux2_1(in1, in0, sel, out);
+input [15:0] in1,in0;
+input sel;
+ouput [15:0]out;
+
+assign out = sel ? in1 : in0;
+
+endmodule
+
