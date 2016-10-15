@@ -1,3 +1,5 @@
+//suck a big dddddd
+
 module reg_file(writenum, write, data_in, clk, readnum, data_out);
 
 
