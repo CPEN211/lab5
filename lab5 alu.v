@@ -1,4 +1,4 @@
-module ALU(ain, bin, ALUop, cout, status);
+module ALU(ain, bin, ALUop, ALUout, status);
 
 	`define width 16
 	`define add 2'b00
@@ -8,24 +8,21 @@ module ALU(ain, bin, ALUop, cout, status);
 
 	input [`width-1:0] ain,bin;
 	input [1:0] ALUop;
-	output [`width-1:0] cout;
+	output reg [`width-1:0] ALUout;
 	output status;
-	reg [`width-1:0] cout;
-
-
 
 	always @ (*) begin
 
 		case(ALUop)
 
-			`add : cout = ain + bin;
-			`minus : cout = ain - bin;
-			`and1 : cout = ain & bin;
-			`A : cout = ain;
-			default : cout = {16{1'b0}};
+			`add : ALUout = ain + bin;
+			`minus : ALUout = ain - bin;
+			`and1 : ALUout = ain & bin;
+			`A : ALUout = ain;
+			default : ALUout = {16{1'b0}};
 
 		endcase
 	end
 
-	assign status = (|cout)? 0:1;
+	assign status = (|ALout)? 0:1;
 endmodule

@@ -78,15 +78,15 @@ decode3_8 DUT(.in(in), .out(out));
 initial begin
 in = 3'b000;
 #15
-$display("input %b, output %b", in, out);
+$display("decoder input %b, decoder output %b", in, out);
 #15
 in = 3'b101;
 #15
-$display("input %b, output %b", in, out);
+$display("decoder input %b, decoder output %b", in, out);
 #15
 in = 3'b111;
 #15
-$display("input %b, output %b", in, out);
+$display("decoder input %b, decoder output %b", in, out);
 
 end 
 endmodule 
