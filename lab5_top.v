@@ -165,9 +165,27 @@ endmodule
 // the book is not the same as on the DE1-SoC (see comments below).
 
 module sseg(in,segs);
+
+	`define zero 7'b1000000
+	`define one 7'b1111001
+	`define two 7'b0100100
+	`define three 7'b0110000
+	`define four 7'b0011001
+	`define five 7'b0010010
+	`define six 7'b0000010
+	`define seven 7'b1111000
+	`define eight 7'b0000000
+	`define nine 7'b0011000
+	`define A 7'b0001000
+	`define b 7'b0000011
+	`define C 7'b1000110
+	`define d 7'b0100001
+	`define E 7'b0000110
+	`define F 7'b0001110
+
   input [3:0] in;
   output [6:0] segs;
-
+	reg [6:0] segs;
   // NOTE: The code for sseg below is not complete: You can use your code from
   // Lab4 to fill this in or code from someone else's Lab4.  
   //
@@ -212,7 +230,30 @@ module sseg(in,segs);
   //            13 | d
   //            14 | E
   //            15 | F
+	always @(*)begin
+	
+	case (in)
+	
+	4'b 0000 : segs = `zero ;
+	4'b 0001 : segs = `one ;
+	4'b 0010 : segs = `two ;
+	4'b 0011 : segs = `three ;
+	4'b 0100 : segs = `four ;
+	4'b 0101 : segs = `five ;
+	4'b 0110 : segs = `six ;
+	4'b 0111 : segs = `seven ;
+	4'b 1000 : segs = `eight ;
+	4'b 1001 : segs = `nine ;
+	4'b 1010 : segs = `A;
+	4'b 1011 : segs = `b;
+	4'b 1100 : segs = `C;
+	4'b 1101 : segs = `d;
+	4'b 1110 : segs = `E;
+	4'b 1111 : segs = `F;
 
-  assign segs = 7'b0001110;  // this will output "F" 
+	endcase
+	end
+	 
+  //assign segs = 7'b0001110;  // this will output "F" 
 
 endmodule
