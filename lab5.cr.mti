@@ -1,0 +1,83 @@
+Z:/cpen211/Lab5-L1D/lab5-patch2/shifter.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/shifter.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab5_top
+-- Compiling module coffee
+-- Compiling module input_iface
+-- Compiling module vDFF
+-- Compiling module sseg
+
+Top level modules:
+	lab5_top
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/shifter_tb.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/shifter_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Shifter_tb
+
+Top level modules:
+	Shifter_tb
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/regfile.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/regfile.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module reg_file
+-- Compiling module mux16
+-- Compiling module register
+-- Compiling module decode3_8
+
+Top level modules:
+	reg_file
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top_tb.sv {1 {vlog -work work -sv -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top_tb.sv
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab5_top_tb
+
+Top level modules:
+	lab5_top_tb
+
+} {} {}} {Z:/cpen211/Lab5-L1D/lab5-patch2/lab5 alu.v} {1 {vlog -work work -stats=none {Z:/cpen211/Lab5-L1D/lab5-patch2/lab5 alu.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/regfile_tb.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/regfile_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module register_file_tb
+-- Compiling module reg_tb
+-- Compiling module decoder_tb
+
+Top level modules:
+	register_file_tb
+	reg_tb
+	decoder_tb
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/datapath.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/datapath.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath
+-- Compiling module mux2_1
+
+Top level modules:
+	datapath
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/alu_tb.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/alu_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} Z:/cpen211/Lab5-L1D/lab5-patch2/datapath_tb.v {1 {vlog -work work -stats=none Z:/cpen211/Lab5-L1D/lab5-patch2/datapath_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}}

@@ -139,7 +139,7 @@ endmodule
 //When sw[9] & sw[8] = 0, ssegs 5 and 4 display nothing, while ssegs 3 through 0 display datapath_out.
 module coffee(input coffee_sw, sel_sw, input [6:0] intrnl_HEX3, intrnl_HEX2, intrnl_HEX1, intrnl_HEX0, output[6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
 
-	assign {HEX5, HEX4, HEX3, HEX2, HEX1, HEX0} = (coffee_sw & sel_sw) ? {`C, `zero, `F, `F, `E, `E} : {`OFF, `OFF, intrnl_HEX3, intrnl_HEX2, intrnl_HEX1, intrnl_HEX0};
+	assign {HEX5, HEX4, HEX3, HEX2, HEX1, HEX0} = (coffee_sw & sel_sw) ? {`C, `zero, `F, `F, `E, `E} : {`OFF, `OFF, intrnl_HEX3, intrnl_HEX2, intrnl_HEX1, intrnl_HEX0}; //di
 
 endmodule
 

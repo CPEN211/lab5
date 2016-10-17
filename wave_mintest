@@ -1,0 +1,51 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -divider {datapath out}
+add wave -noupdate /datapath_tb/DUT/datapath_out
+add wave -noupdate /datapath_tb/DUT/clk
+add wave -noupdate -divider {Read and write num}
+add wave -noupdate /datapath_tb/DUT/readnum
+add wave -noupdate /datapath_tb/DUT/writenum
+add wave -noupdate -divider R0
+add wave -noupdate /datapath_tb/DUT/regfile/R0/load
+add wave -noupdate /datapath_tb/DUT/regfile/R0/in
+add wave -noupdate /datapath_tb/DUT/regfile/R0/out
+add wave -noupdate /datapath_tb/DUT/regfile/R0/new_mem
+add wave -noupdate -divider R1
+add wave -noupdate /datapath_tb/DUT/regfile/R1/load
+add wave -noupdate /datapath_tb/DUT/regfile/R1/in
+add wave -noupdate /datapath_tb/DUT/regfile/R1/out
+add wave -noupdate /datapath_tb/DUT/regfile/R1/new_mem
+add wave -noupdate -divider RA
+add wave -noupdate /datapath_tb/DUT/A/load
+add wave -noupdate /datapath_tb/DUT/A/in
+add wave -noupdate /datapath_tb/DUT/A/out
+add wave -noupdate /datapath_tb/DUT/A/new_mem
+add wave -noupdate -divider RB
+add wave -noupdate /datapath_tb/DUT/B/load
+add wave -noupdate /datapath_tb/DUT/B/in
+add wave -noupdate /datapath_tb/DUT/B/out
+add wave -noupdate /datapath_tb/DUT/B/new_mem
+add wave -noupdate -divider R2
+add wave -noupdate /datapath_tb/DUT/regfile/R2/load
+add wave -noupdate /datapath_tb/DUT/regfile/R2/in
+add wave -noupdate /datapath_tb/DUT/regfile/R2/out
+add wave -noupdate /datapath_tb/DUT/regfile/R2/new_mem
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 184
+configure wave -valuecolwidth 125
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ps
+update
+WaveRestoreZoom {0 ps} {93 ps}

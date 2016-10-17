@@ -87,7 +87,6 @@ module decoder_tb;
 		in = 3'b111;
 		#15
 		$display("decoder input %b, decoder output %b", in, out);	
-
 	end
  
 endmodule 

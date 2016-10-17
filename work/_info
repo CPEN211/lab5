@@ -1,0 +1,417 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vALU
+!s110 1476686431
+!i10b 1
+!s100 DYO^]BSK`fGlk_e^T^4c72
+IihL7J>mEn4c<@zf^Fe8?]1
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dZ:/cpen211/Lab5-L1D/lab5-patch2
+w1476657980
+8Z:/cpen211/Lab5-L1D/lab5-patch2/lab5 alu.v
+FZ:/cpen211/Lab5-L1D/lab5-patch2/lab5 alu.v
+L0 1
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1476686430.416000
+!s107 Z:/cpen211/Lab5-L1D/lab5-patch2/lab5 alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/lab5 alu.v|
+!i113 1
+Z3 o-work work
+n@a@l@u
+valu_tb
+!s110 1476686426
+!i10b 1
+!s100 d5_J5Hdl_MGz9Q[LAKJz@0
+I3Sl0YZ;o>ZhXhgoe]zO162
+R0
+R1
+Z4 w1476657572
+8Z:/cpen211/Lab5-L1D/lab5-patch2/alu_tb.v
+FZ:/cpen211/Lab5-L1D/lab5-patch2/alu_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1476686425.662000
+!s107 Z:/cpen211/Lab5-L1D/lab5-patch2/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/alu_tb.v|
+!i113 1
+R3
+vcoffee
+Z5 !s110 1476686432
+!i10b 1
+!s100 ei=8n_f9Ll8lgcL<j<=aF0
+I6]E:[3WGb8]U^a[F6PXci3
+R0
+R1
+Z6 w1476686397
+Z7 8Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top.v
+Z8 FZ:/cpen211/Lab5-L1D/lab5-patch2/lab5_top.v
+L0 140
+R2
+r1
+!s85 0
+31
+Z9 !s108 1476686431.502000
+Z10 !s107 Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top.v|
+!i113 1
+R3
+vdatapath
+Z12 !s110 1476686428
+!i10b 1
+!s100 H_jI5fD`onJz8O^Em@GFo2
+IgBI:[jTGMlI9H9R2m5Ffi3
+R0
+R1
+Z13 w1476685789
+Z14 8Z:/cpen211/Lab5-L1D/lab5-patch2/datapath.v
+Z15 FZ:/cpen211/Lab5-L1D/lab5-patch2/datapath.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z16 !s108 1476686427.763000
+Z17 !s107 Z:/cpen211/Lab5-L1D/lab5-patch2/datapath.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/datapath.v|
+!i113 1
+R3
+vdatapath_tb
+!s110 1476686429
+!i10b 1
+!s100 NRfdWze;VMVN0;hjDW=g;2
+IZUibcZHHEdf6KFcKNQaoV3
+R0
+R1
+w1476685481
+8Z:/cpen211/Lab5-L1D/lab5-patch2/datapath_tb.v
+FZ:/cpen211/Lab5-L1D/lab5-patch2/datapath_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1476686429.123000
+!s107 Z:/cpen211/Lab5-L1D/lab5-patch2/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/datapath_tb.v|
+!i113 1
+R3
+vdecode3_8
+Z19 !s110 1476686435
+!i10b 1
+!s100 n4bPMQ?if6hA[g0=_nRjG0
+I2^W_]5bm8LibgloZa1:k?1
+R0
+R1
+Z20 w1476684834
+Z21 8Z:/cpen211/Lab5-L1D/lab5-patch2/regfile.v
+Z22 FZ:/cpen211/Lab5-L1D/lab5-patch2/regfile.v
+L0 95
+R2
+r1
+!s85 0
+31
+Z23 !s108 1476686434.692000
+Z24 !s107 Z:/cpen211/Lab5-L1D/lab5-patch2/regfile.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/regfile.v|
+!i113 1
+R3
+vdecoder_tb
+Z26 !s110 1476686437
+!i10b 1
+!s100 `d03GTGZ0OO46>ZIJ]chG2
+Ief`EPhBFMWYBI`oj2=YPI2
+R0
+R1
+Z27 w1476685562
+Z28 8Z:/cpen211/Lab5-L1D/lab5-patch2/regfile_tb.v
+Z29 FZ:/cpen211/Lab5-L1D/lab5-patch2/regfile_tb.v
+L0 71
+R2
+r1
+!s85 0
+31
+Z30 !s108 1476686436.484000
+Z31 !s107 Z:/cpen211/Lab5-L1D/lab5-patch2/regfile_tb.v|
+Z32 !s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/regfile_tb.v|
+!i113 1
+R3
+vinput_iface
+R5
+!i10b 1
+!s100 XWcTDD=o5SVPhA;;F:NMm1
+IJL;UQ;hkjbh`H=e>_@lIH1
+R0
+R1
+R6
+R7
+R8
+L0 147
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R3
+vlab5_top
+R5
+!i10b 1
+!s100 M5[<l9E49hQa5V60_Ba8_0
+IhK_EeMiW`bA?Uj^GBEGOn0
+R0
+R1
+R6
+R7
+R8
+L0 57
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R3
+vlab5_top_tb
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1476686434
+!i10b 1
+!s100 njANKBKND3d;G78dZb`0Y1
+IBmK45A_dNXYRz_C@:J5km0
+R0
+!s105 lab5_top_tb_sv_unit
+S1
+R1
+R4
+8Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top_tb.sv
+FZ:/cpen211/Lab5-L1D/lab5-patch2/lab5_top_tb.sv
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1476686433.648000
+!s107 Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/lab5_top_tb.sv|
+!i113 1
+o-work work -sv
+vmux16
+R19
+!i10b 1
+!s100 T;IkcH7dnQT<]e3R2igdc2
+I9<X7Fk5bc=S97dl4=0M873
+R0
+R1
+R20
+R21
+R22
+L0 54
+R2
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R3
+vmux2_1
+R12
+!i10b 1
+!s100 R899O?MYc7?Qh>VPmG1<o2
+I??9cUHoHI35gAl<[J<5Ve3
+R0
+R1
+R13
+R14
+R15
+L0 40
+R2
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R3
+vreg_file
+R19
+!i10b 1
+!s100 UOQ=aM]DmX@b3h8K2RGJo3
+Ic_ei;bAHM7aIMLe37n>TT3
+R0
+R1
+R20
+R21
+R22
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R3
+vreg_tb
+R26
+!i10b 1
+!s100 Ni8Z>>aIE;Lg@QTDFKl910
+IXfzeNNAR41cRWGOIaoWWi2
+R0
+R1
+R27
+R28
+R29
+L0 36
+R2
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R3
+vregister
+R19
+!i10b 1
+!s100 zIdoKFhbZTnZaJ@G<fBA?2
+IdCU11KEecPYMC6G0dEQOm0
+R0
+R1
+R20
+R21
+R22
+L0 79
+R2
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R3
+vregister_file_tb
+R26
+!i10b 1
+!s100 VNoMN]cbL6_<z2<DZmQaQ1
+I4iA0cFge9BzSn3bme5c@O0
+R0
+R1
+R27
+R28
+R29
+L0 1
+R2
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R3
+vShifter
+!s110 1476686438
+!i10b 1
+!s100 SNiB]Rz8J8OL^^F]SF<df1
+IF3>edS0g6gEiDJji0W=RF2
+R0
+R1
+w1476657962
+8Z:/cpen211/Lab5-L1D/lab5-patch2/shifter.v
+FZ:/cpen211/Lab5-L1D/lab5-patch2/shifter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1476686437.854000
+!s107 Z:/cpen211/Lab5-L1D/lab5-patch2/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/shifter.v|
+!i113 1
+R3
+n@shifter
+vShifter_tb
+!s110 1476686425
+!i10b 1
+!s100 `5Aik_CHEj=ABhJdUMQ331
+I1[>kYF]5EB9;Ge<l[>z`M1
+R0
+R1
+w1476685313
+8Z:/cpen211/Lab5-L1D/lab5-patch2/shifter_tb.v
+FZ:/cpen211/Lab5-L1D/lab5-patch2/shifter_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1476686423.828000
+!s107 Z:/cpen211/Lab5-L1D/lab5-patch2/shifter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/cpen211/Lab5-L1D/lab5-patch2/shifter_tb.v|
+!i113 1
+R3
+n@shifter_tb
+vsseg
+Z33 !s110 1476686433
+!i10b 1
+!s100 9NFeS;`ifdG3kQ?O3JoR20
+IAmO@o:XAfP[7SGDkzA::<3
+R0
+R1
+R6
+R7
+R8
+L0 204
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R3
+vvDFF
+R33
+!i10b 1
+!s100 H<ORJzj9PmUl8G<<zJhTO1
+I4Wi^76]ecE;g=@JFP]Iz82
+R0
+R1
+R6
+R7
+R8
+L0 185
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R3
+nv@d@f@f
